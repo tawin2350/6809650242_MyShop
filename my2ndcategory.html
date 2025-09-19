@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop - Acoustic Guitars</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+      <div id="preloader">
+    <div class="loader">🎸</div>
+  </div>
+    <header>
+        <h1>🎸 My Guitar Shop 🎸</h1>
+        <p class="tagline">Discover the beauty of Acoustic Guitars</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="my1stcategory.html">Electric Guitars</a> |
+            <a href="my2ndcategory.html">Acoustic Guitars</a>
+        </nav>
+    </header>
+
+    <hr class="line">
+
+    <section class="products">
+        <h2><center><u>Acoustic Guitars</u></center></h2>
+        <div class="productgrid">
+            <figure>
+                <img src="resources/acoustic1.jpg" alt="Yamaha FG800">
+                <figcaption>
+                    <h3>Yamaha FG800</h3>
+                    <p>Solid spruce top with warm, balanced tone.</p>
+                    <span class="price">฿9,500</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="resources/acoustic2.jpg" alt="Taylor 214ce">
+                <figcaption>
+                    <h3>Taylor 214ce</h3>
+                    <p>Bright and articulate sound with modern playability.</p>
+                    <span class="price">฿35,000</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="resources/acoustic3.jpg" alt="Martin D-28">
+                <figcaption>
+                    <h3>Martin D-28</h3>
+                    <p>A legendary dreadnought with powerful projection.</p>
+                    <span class="price">฿95,000</span>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <script>
+    window.addEventListener('load', function() {
+      document.body.classList.add('loaded');
+      var p = document.getElementById('preloader');
+      if (p) p.parentNode.removeChild(p);
+    });
+  </script>
+
+    <footer>
+        <p>&copy; 2025 My Guitar Shop</p>
+    </footer>
+</body>
+</html>

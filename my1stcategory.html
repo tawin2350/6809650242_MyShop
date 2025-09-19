@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shop - Electric Guitars</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader">🎸</div>
+  </div>
+  <header>
+    <h1>🎸 My Guitar Shop 🎸</h1>
+    <p class="tagline">Explore our collection of Electric Guitars</p>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="my1stcategory.html">Electric Guitars</a> |
+      <a href="my2ndcategory.html">Acoustic Guitars</a>
+    </nav>
+  </header>
+
+  <hr class="line">
+
+  <section class="products">
+    <h2><center><u>Electric Guitars</u></center></h2>
+    <div class="productgrid">
+      <figure>
+        <img src="resources/product1.jpg" alt="Fender Player Stratocaster">
+        <figcaption>
+          <h3>Fender Player Stratocaster</h3>
+          <p>Classic Strat tone and versatile playability for all genres.</p>
+          <span class="price">฿28,800</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="resources/product2.jpg" alt="Fender Hybrid II Telecaster Flame">
+        <figcaption>
+          <h3>Fender Hybrid II Telecaster Flame</h3>
+          <p>Vintage style with modern specs, perfect for any guitarist.</p>
+          <span class="price">฿41,000</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="resources/product4.jpg" alt="Gibson Les Paul Standard">
+        <figcaption>
+          <h3>Gibson Les Paul Standard</h3>
+          <p>Legendary rock tone with premium build quality.</p>
+          <span class="price">฿85,000</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Guitar Shop</p>
+  </footer>
+  <script>
+    window.addEventListener('load', function() {
+      document.body.classList.add('loaded');
+      var p = document.getElementById('preloader');
+      if (p) p.parentNode.removeChild(p);
+    });
+  </script>
+</body>
+</html>
